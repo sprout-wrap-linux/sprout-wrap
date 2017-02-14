@@ -21,7 +21,7 @@ function get_dependencies() {
 
 function main() {
   clear_chruby
-  use_local_gems
+#  use_local_gems
   get_dependencies
 
   case "$1" in
