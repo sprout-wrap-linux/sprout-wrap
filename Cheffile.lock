@@ -4,7 +4,6 @@ SITE
     build-essential (3.2.0)
       seven_zip (>= 0.0.0)
     compat_resource (12.16.3)
-    dmg (3.1.0)
     homebrew (3.0.0)
     mingw (0.1.1)
       seven_zip (>= 0.0.0)
@@ -16,97 +15,9 @@ SITE
       ohai (>= 4.0.0)
 
 GIT
-  remote: https://github.com/pivotal-sprout/osx
+  remote: https://github.com/sprout-wrap-linux/sprout-base
   ref: master
-  sha: 57820f0c0f4b08e9cff82a57a7489f9dcc9345f7
-  specs:
-    osx (0.1.0)
-
-GIT
-  remote: https://github.com/pivotal-sprout/sprout-jetbrains-editors
-  ref: master
-  sha: bcfcb62c1095a9ef33477f896ebda47918ad7618
-  specs:
-    sprout-jetbrains-editors (0.1.0)
-      homebrew (>= 0.0.0)
-      sprout-base (>= 0.0.0)
-
-GIT
-  remote: https://github.com/pivotal-sprout/sprout-mysql
-  ref: master
-  sha: 12a264fe5418ae9fc6f5300fe56abec058f4a743
-  specs:
-    sprout-mysql (0.1.0)
-      homebrew (>= 0.0.0)
-      sprout-base (>= 0.0.0)
-
-GIT
-  remote: https://github.com/pivotal-sprout/sprout-osx-apps
-  ref: master
-  sha: abe74e25ac963746f6178cb8e371d51c8bbd9de0
-  specs:
-    sprout-osx-apps (0.2.0)
-      dmg (>= 0.0.0)
-      homebrew (>= 1.6.6)
-      sprout-base (>= 0.0.0)
-      sprout-osx-settings (>= 0.0.0)
-
-GIT
-  remote: https://github.com/pivotal-sprout/sprout-osx-settings
-  ref: master
-  sha: 62630bea50cea7b24058854a5a216c3a4dbbe4ef
-  specs:
-    sprout-osx-settings (0.1.0)
-      homebrew (>= 0.0.0)
-      osx (>= 0.0.0)
-      sprout-base (>= 0.0.0)
-
-GIT
-  remote: https://github.com/pivotal-sprout/sprout-postgresql
-  ref: master
-  sha: 97558d741bc7f0e1ea6c2f896dd2a3706b26c7ec
-  specs:
-    sprout-postgresql (0.1.0)
-      homebrew (>= 1.5.4)
-      sprout-base (>= 0.0.0)
-
-GIT
-  remote: https://github.com/pivotal-sprout/sprout-rbenv
-  ref: master
-  sha: aacfd19f867511715e6070988013ed453d268efb
-  specs:
-    sprout-rbenv (0.1.0)
-      homebrew (>= 0.0.0)
-      sprout-base (>= 0.0.0)
-
-GIT
-  remote: https://github.com/pivotal-sprout/sprout-ruby
-  ref: master
-  sha: 2fc7d5273fccd978321450b61088bbd608867dfc
-  specs:
-    sprout-ruby (0.1.0)
-      sprout-base (>= 0.0.0)
-
-GIT
-  remote: https://github.com/pivotal-sprout/sprout-ssh
-  ref: master
-  sha: b3ac3a04d9b9494b32514e69b33720fd51f46224
-  specs:
-    sprout-ssh (0.1.0)
-      sprout-base (>= 0.0.0)
-      sprout-osx-settings (>= 0.0.0)
-
-GIT
-  remote: https://github.com/pivotal-sprout/sprout-terminal
-  ref: master
-  sha: 6d9be928aa0041f455d3721b14c89c5e068f5e04
-  specs:
-    sprout-terminal (0.1.0)
-      osx (>= 0.0.0)
-      sprout-base (>= 0.0.0)
-
-PATH
-  remote: ~/workspace/sprout-base
+  sha: 404de9b567db9484e4d4a9c2710f1f53aec3fcda
   specs:
     sprout-base (0.5.0)
       homebrew (>= 0.0.0)
@@ -121,16 +32,6 @@ PATH
 DEPENDENCIES
   build-essential (= 3.2.0)
   mingw (= 0.1.1)
-  osx (>= 0)
   sprout-base (>= 0)
   sprout-git (>= 0)
-  sprout-jetbrains-editors (>= 0)
-  sprout-mysql (>= 0)
-  sprout-osx-apps (>= 0)
-  sprout-osx-settings (>= 0)
-  sprout-postgresql (>= 0)
-  sprout-rbenv (>= 0)
-  sprout-ruby (>= 0)
-  sprout-ssh (>= 0)
-  sprout-terminal (>= 0)
 

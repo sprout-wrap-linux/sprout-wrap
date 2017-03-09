@@ -2,43 +2,43 @@
 
 site 'https://supermarket.getchef.com/api/v1'
 
-cookbook 'sprout-rbenv',
-  :github => 'pivotal-sprout/sprout-rbenv'
+#cookbook 'sprout-rbenv',
+#  :github => 'pivotal-sprout/sprout-rbenv'
 
-cookbook 'sprout-ruby',
-  :github => 'pivotal-sprout/sprout-ruby'
+#cookbook 'sprout-ruby',
+#  :github => 'pivotal-sprout/sprout-ruby'
 
-cookbook 'sprout-mysql',
-  :github => 'pivotal-sprout/sprout-mysql'
+#cookbook 'sprout-mysql',
+#  :github => 'pivotal-sprout/sprout-mysql'
 
 cookbook 'sprout-git',
-  :path => '~/workspace/sprout-git'
-#  :github => 'pivotal-sprout/sprout-git'
+#  :path => '~/workspace/sprout-git'
+  :github => 'sprout-wrap-linux/sprout-git'
 
 cookbook 'sprout-base',
-  :path => '~/workspace/sprout-base'
-  #:github => 'github.com/sprout-wrap-linux/sprout-base'
+#  :path => '~/workspace/sprout-base'
+  :github => 'sprout-wrap-linux/sprout-base'
 
-cookbook 'sprout-osx-apps',
-  :github => 'pivotal-sprout/sprout-osx-apps'
+#cookbook 'sprout-osx-apps',
+#  :github => 'pivotal-sprout/sprout-osx-apps'
 
-cookbook 'sprout-osx-settings',
-  :github => 'pivotal-sprout/sprout-osx-settings'
+#cookbook 'sprout-osx-settings',
+#  :github => 'pivotal-sprout/sprout-osx-settings'
 
-cookbook 'osx',
-  :github => 'pivotal-sprout/osx'
+#cookbook 'osx',
+#  :github => 'pivotal-sprout/osx'
 
-cookbook 'sprout-terminal',
-  :github => 'pivotal-sprout/sprout-terminal'
+#cookbook 'sprout-terminal',
+#  :github => 'pivotal-sprout/sprout-terminal'
 
-cookbook 'sprout-postgresql',
-  :github => 'pivotal-sprout/sprout-postgresql'
+#cookbook 'sprout-postgresql',
+#  :github => 'pivotal-sprout/sprout-postgresql'
 
-cookbook 'sprout-ssh',
-  :github => 'pivotal-sprout/sprout-ssh'
+#cookbook 'sprout-ssh',
+#  :github => 'pivotal-sprout/sprout-ssh'
 
-cookbook 'sprout-jetbrains-editors',
-  :github => 'pivotal-sprout/sprout-jetbrains-editors'
+#cookbook 'sprout-jetbrains-editors',
+#  :github => 'pivotal-sprout/sprout-jetbrains-editors'
 
 # mingw 1.0 and build-essential 4.0 add a dependency to compat_resource,
 # which does not load correctly with Rubygems 2.0.14, the Rubygems version

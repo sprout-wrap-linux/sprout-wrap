@@ -24,6 +24,7 @@ recipes:
 - sprout-git::default_editor
 #- sprout-git::projects
 - sprout-git::git_scripts
+- sprout-git::git_duet
 
 # development (rails)
 #- sprout-rbenv
@@ -46,14 +47,27 @@ node_attributes:
         - initials: cs
           name: Colin Shield
           username: cshield
-        - initials: bc
-          name: Brian Cunnie
-          username: cunnie
-        - initials: jrhb
-          name: Jonathan Barnes
-        - initials: lw
-          name: Luke Winikates
-          username: lwinikates
+        - initials: ap
+          name: Andrew Poydence
+          username: apoydence
+        - initials: jk
+          name: Jason Keene
+          username: jkeene
+        - initials: jt
+          name: JT Archie
+          username: jarchie
+        - initials: wf
+          name: Warren Fernandes
+          username: wfernandes
+        - initials: ec
+          name: Eno Compton
+          username: ecompton
+        - initials: bl
+          name: Brady Love
+          username: blove
+        - initials: ah
+          name: Adam Hevenor
+          username: ahevenor
       projects:
         -
           name: sprout-wrap
