@@ -22,10 +22,21 @@ GIT
     sprout-base (0.5.0)
       homebrew (>= 0.0.0)
 
-PATH
-  remote: ~/workspace/sprout-git
+GIT
+  remote: https://github.com/sprout-wrap-linux/sprout-git
+  ref: master
+  sha: 3dcbec6bce313d1421f4d30d007c425f12a9f864
   specs:
     sprout-git (0.3.1)
+      homebrew (>= 0.0.0)
+      sprout-base (>= 0.0.0)
+
+GIT
+  remote: https://github.com/sprout-wrap-linux/sprout-vim
+  ref: master
+  sha: ee85ec6f64b84d66ff059dd4079c7a8613c104e1
+  specs:
+    sprout-vim (0.3.0)
       homebrew (>= 0.0.0)
       sprout-base (>= 0.0.0)
 
@@ -34,4 +45,5 @@ DEPENDENCIES
   mingw (= 0.1.1)
   sprout-base (>= 0)
   sprout-git (>= 0)
+  sprout-vim (>= 0)
 

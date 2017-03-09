@@ -11,6 +11,10 @@ site 'https://supermarket.getchef.com/api/v1'
 #cookbook 'sprout-mysql',
 #  :github => 'pivotal-sprout/sprout-mysql'
 
+cookbook 'sprout-vim',
+#  :path => '~/workspace/sprout-vim'
+  :github => 'sprout-wrap-linux/sprout-vim'
+
 cookbook 'sprout-git',
 #  :path => '~/workspace/sprout-git'
   :github => 'sprout-wrap-linux/sprout-git'

@@ -26,6 +26,9 @@ recipes:
 - sprout-git::git_scripts
 - sprout-git::git_duet
 
+- sprout-vim
+- sprout-vim::config
+
 # development (rails)
 #- sprout-rbenv
 #- sprout-ruby
