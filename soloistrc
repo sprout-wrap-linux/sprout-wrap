@@ -42,8 +42,8 @@ recipes:
 node_attributes:
   sprout:
     cache_owner:
-      user: vagrant
-      group: vagrant
+      user: pivotal
+      group: pivotal
     git:
       domain: pivotal.io
       authors:
@@ -72,9 +72,9 @@ node_attributes:
           name: Adam Hevenor
           username: ahevenor
       projects:
-        -
-          name: sprout-wrap
-          url: https://github.com/pivotal-sprout/sprout-wrap.git
+        - 
+          name: loggregator
+          url: https://github.com/cloudfoundry/loggregator.git
     terminal:
       default_profile: 'Pro'
     settings:
