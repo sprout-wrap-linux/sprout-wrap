@@ -11,6 +11,9 @@ site 'https://supermarket.getchef.com/api/v1'
 #cookbook 'sprout-mysql',
 #  :github => 'pivotal-sprout/sprout-mysql'
 
+cookbook 'chrome',
+  :github => 'dhoer/chef-chrome'
+
 cookbook 'sprout-vim',
 #  :path => '~/workspace/sprout-vim'
   :github => 'sprout-wrap-linux/sprout-vim'

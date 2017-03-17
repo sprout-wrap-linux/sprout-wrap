@@ -29,6 +29,7 @@ recipes:
 - sprout-vim
 - sprout-vim::config
 
+- chrome
 # development (rails)
 #- sprout-rbenv
 #- sprout-ruby
