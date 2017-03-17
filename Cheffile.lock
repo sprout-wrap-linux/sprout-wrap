@@ -24,6 +24,14 @@ GIT
       dmg (>= 3.0)
 
 GIT
+  remote: https://github.com/sprout-wrap-linux/sprout-apt-install
+  ref: master
+  sha: 424d3df3fdb27003dab54121b2b7ccdb8d530215
+  specs:
+    sprout-apt-install (0.2.0)
+      sprout-base (>= 0.0.0)
+
+GIT
   remote: https://github.com/sprout-wrap-linux/sprout-base
   ref: master
   sha: 404de9b567db9484e4d4a9c2710f1f53aec3fcda
@@ -53,6 +61,7 @@ DEPENDENCIES
   build-essential (= 3.2.0)
   chrome (>= 0)
   mingw (= 0.1.1)
+  sprout-apt-install (>= 0)
   sprout-base (>= 0)
   sprout-git (>= 0)
   sprout-vim (>= 0)

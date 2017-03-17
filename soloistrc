@@ -26,10 +26,13 @@ recipes:
 - sprout-git::git_scripts
 - sprout-git::git_duet
 
+- chrome
+
+- sprout-apt-install
+
 - sprout-vim
 - sprout-vim::config
 
-- chrome
 # development (rails)
 #- sprout-rbenv
 #- sprout-ruby
@@ -86,36 +89,6 @@ node_attributes:
       clear_apps: true
       tile_size: 35
       magnification: false
-  homebrew:
-    taps:
-      - universal-ctags/universal-ctags
-    formulas:
-      - name: universal-ctags
-        head: true
-      - ag
-      - chromedriver
-      - imagemagick
-      - node
-      - pstree
-      - qt
-      - ssh-copy-id
-      - tmux
-      - tree
-      - watch
-      - wget
-      - rbenv-binstubs
-    casks:
-      - firefox
-      - flycut
-      - rowanj-gitx
-      - github-desktop
-      - google-chrome
-      - google-drive
-      - google-hangouts
-      - macvim
-      - skype
-      - textmate
-      - vagrant
-      - virtualbox
-      - xquartz
-      - xscope
+    apt:
+      packages:
+        - golang

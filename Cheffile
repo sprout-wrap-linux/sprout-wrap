@@ -26,6 +26,9 @@ cookbook 'sprout-base',
 #  :path => '~/workspace/sprout-base'
   :github => 'sprout-wrap-linux/sprout-base'
 
+cookbook 'sprout-apt-install',
+  :github => 'sprout-wrap-linux/sprout-apt-install'
+
 #cookbook 'sprout-osx-apps',
 #  :github => 'pivotal-sprout/sprout-osx-apps'
 
