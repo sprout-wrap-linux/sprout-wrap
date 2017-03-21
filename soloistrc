@@ -90,5 +90,10 @@ node_attributes:
       tile_size: 35
       magnification: false
     apt:
+      repositories:
+        - name: 'unit193'
+        uri: 'ppa:unit193/encryption'
       packages:
-        - golang
+        - tmux
+        - terminator
+        - veracrypt
