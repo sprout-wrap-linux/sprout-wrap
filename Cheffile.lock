@@ -14,6 +14,13 @@ SITE
       ohai (>= 4.0.0)
 
 GIT
+  remote: https://github.com/NOX73/chef-golang
+  ref: master
+  sha: c3decac8c252a466964f7399245dacbbdb706b07
+  specs:
+    golang (1.7.1)
+
+GIT
   remote: https://github.com/dhoer/chef-chrome
   ref: master
   sha: 00e7f0ec4ee91358fdfa95177f772da69ff2aca7
@@ -66,6 +73,7 @@ GIT
 DEPENDENCIES
   build-essential (= 3.2.0)
   chrome (>= 0)
+  golang (>= 0)
   mingw (= 0.1.1)
   sprout-apt-install (>= 0)
   sprout-base (>= 0)

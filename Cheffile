@@ -32,6 +32,9 @@ cookbook 'sprout-base',
 cookbook 'sprout-apt-install',
   :github => 'sprout-wrap-linux/sprout-apt-install'
 
+cookbook 'golang',
+  :github => 'NOX73/chef-golang'
+
 #cookbook 'sprout-osx-apps',
 #  :github => 'pivotal-sprout/sprout-osx-apps'
 

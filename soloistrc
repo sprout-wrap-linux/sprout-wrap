@@ -26,6 +26,8 @@ recipes:
 - sprout-vim
 - sprout-vim::config
 
+- golang
+
 # development (rails)
 #- sprout-rbenv
 #- sprout-ruby
@@ -36,6 +38,9 @@ recipes:
 #- sprout-jetbrains-editors::rubymine
 
 node_attributes:
+  go:
+    version: 1.7.5
+    from_source: true
   sprout:
     cache_owner:
       user: pivotal
