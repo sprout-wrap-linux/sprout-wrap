@@ -11,6 +11,9 @@ site 'https://supermarket.getchef.com/api/v1'
 #cookbook 'sprout-mysql',
 #  :github => 'pivotal-sprout/sprout-mysql'
 
+cookbook 'sprout-direnv',
+  :github => 'sprout-wrap-linux/sprout-direnv'
+
 cookbook 'chrome',
   :github => 'dhoer/chef-chrome'
 

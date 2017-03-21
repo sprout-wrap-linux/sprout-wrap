@@ -3,16 +3,14 @@ SITE
   specs:
     build-essential (3.2.0)
       seven_zip (>= 0.0.0)
-    compat_resource (12.16.3)
     dmg (3.1.0)
     homebrew (3.0.0)
     mingw (0.1.1)
       seven_zip (>= 0.0.0)
-    ohai (4.2.3)
-      compat_resource (>= 12.14.7)
+    ohai (5.0.0)
     seven_zip (2.0.2)
       windows (>= 1.2.2)
-    windows (2.1.1)
+    windows (3.0.1)
       ohai (>= 4.0.0)
 
 GIT
@@ -26,7 +24,7 @@ GIT
 GIT
   remote: https://github.com/sprout-wrap-linux/sprout-apt-install
   ref: master
-  sha: 424d3df3fdb27003dab54121b2b7ccdb8d530215
+  sha: 967bc648be6e66acafbf7838a453c11f322dee0f
   specs:
     sprout-apt-install (0.2.0)
       sprout-base (>= 0.0.0)
@@ -38,6 +36,14 @@ GIT
   specs:
     sprout-base (0.5.0)
       homebrew (>= 0.0.0)
+
+GIT
+  remote: https://github.com/sprout-wrap-linux/sprout-direnv
+  ref: master
+  sha: 631d34274820a41900e92d0bcce770c446e0a6d0
+  specs:
+    sprout-direnv (0.1.0)
+      sprout-base (>= 0.0.0)
 
 GIT
   remote: https://github.com/sprout-wrap-linux/sprout-git
@@ -63,6 +69,7 @@ DEPENDENCIES
   mingw (= 0.1.1)
   sprout-apt-install (>= 0)
   sprout-base (>= 0)
+  sprout-direnv (>= 0)
   sprout-git (>= 0)
   sprout-vim (>= 0)
 
