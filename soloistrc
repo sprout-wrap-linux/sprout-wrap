@@ -27,6 +27,7 @@ recipes:
 - sprout-vim::config
 
 - golang
+- sprout-bosh-cli
 
 # development (rails)
 #- sprout-rbenv
@@ -40,7 +41,8 @@ recipes:
 node_attributes:
   go:
     version: 1.7.5
-    from_source: true
+    from_source: false
+    install_dir: /usr/local
   sprout:
     cache_owner:
       user: pivotal
@@ -95,4 +97,3 @@ node_attributes:
         - veracrypt
         - emacs24
         - xsel
-        

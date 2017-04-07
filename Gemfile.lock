@@ -147,8 +147,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  chef
-  chef-zero
+  chef (~> 12.19.36)
+  chef-zero (~> 5.3.1)
   soloist
 
 BUNDLED WITH
