@@ -1,6 +1,8 @@
 SITE
   remote: https://supermarket.getchef.com/api/v1
   specs:
+    apache2 (3.2.2)
+    apt (6.0.1)
     build-essential (3.2.0)
       seven_zip (>= 0.0.0)
     dmg (3.1.0)
@@ -10,8 +12,15 @@ SITE
     ohai (5.0.3)
     seven_zip (2.0.2)
       windows (>= 1.2.2)
+    virtualbox (1.0.3)
+      apache2 (>= 0.0.0)
+      apt (>= 0.0.0)
+      dmg (>= 0.0.0)
+      windows (>= 0.0.0)
+      yum (~> 3.1)
     windows (3.0.4)
       ohai (>= 4.0.0)
+    yum (3.13.0)
 
 GIT
   remote: https://github.com/NOX73/chef-golang
@@ -89,4 +98,5 @@ DEPENDENCIES
   sprout-direnv (>= 0)
   sprout-git (>= 0)
   sprout-vim (>= 0)
+  virtualbox (>= 0)
 

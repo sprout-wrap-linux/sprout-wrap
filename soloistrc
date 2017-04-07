@@ -29,6 +29,8 @@ recipes:
 - golang
 - sprout-bosh-cli
 
+- virtualbox
+
 # development (rails)
 #- sprout-rbenv
 #- sprout-ruby
