@@ -12,13 +12,8 @@ SITE
     ohai (5.0.3)
     seven_zip (2.0.2)
       windows (>= 1.2.2)
-    virtualbox (1.0.3)
-      apache2 (>= 0.0.0)
-      apt (>= 0.0.0)
-      dmg (>= 0.0.0)
-      windows (>= 0.0.0)
-      yum (~> 3.1)
-    windows (3.0.4)
+    tmux (1.5.0)
+    windows (3.0.5)
       ohai (>= 4.0.0)
     yum (3.13.0)
 
@@ -48,7 +43,7 @@ GIT
 GIT
   remote: https://github.com/sprout-wrap-linux/sprout-base
   ref: master
-  sha: 1a93252e8635776a5197abffcfbc95fc53879f94
+  sha: ab9d559b62cd47013753f326d1db7267270dadc9
   specs:
     sprout-base (0.6.0)
       homebrew (>= 0.0.0)
@@ -56,7 +51,7 @@ GIT
 GIT
   remote: https://github.com/sprout-wrap-linux/sprout-bosh-cli
   ref: master
-  sha: bc985602627086cb331b76377097029dc7b769de
+  sha: 242ad640f7fd3493083e82784f48bcddb06dbd6b
   specs:
     sprout-bosh-cli (0.3.0)
       sprout-base (>= 0.0.0)
@@ -87,6 +82,18 @@ GIT
       homebrew (>= 0.0.0)
       sprout-base (>= 0.0.0)
 
+GIT
+  remote: https://github.com/sprout-wrap-linux/virtualbox-cookbook
+  ref: master
+  sha: 1aa580ece3eb20e3fd1af4a6f51a8fc7bd3d7b01
+  specs:
+    virtualbox (1.0.4)
+      apache2 (>= 0.0.0)
+      apt (>= 0.0.0)
+      dmg (>= 0.0.0)
+      windows (>= 0.0.0)
+      yum (~> 3.1)
+
 DEPENDENCIES
   build-essential (= 3.2.0)
   chrome (>= 0)
@@ -98,5 +105,6 @@ DEPENDENCIES
   sprout-direnv (>= 0)
   sprout-git (>= 0)
   sprout-vim (>= 0)
+  tmux (>= 0)
   virtualbox (>= 0)
 

@@ -38,7 +38,10 @@ cookbook 'sprout-bosh-cli',
 cookbook 'golang',
   :github => 'NOX73/chef-golang'
 
-cookbook 'virtualbox'
+cookbook 'virtualbox',
+  :github => 'sprout-wrap-linux/virtualbox-cookbook'
+
+cookbook 'tmux'
 
 #cookbook 'sprout-osx-apps',
 #  :github => 'pivotal-sprout/sprout-osx-apps'
