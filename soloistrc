@@ -106,3 +106,5 @@ node_attributes:
         - veracrypt
         - emacs24
         - xsel
+        - jq
+        - gnome-tweak-tool
