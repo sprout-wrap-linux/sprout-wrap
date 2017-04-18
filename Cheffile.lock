@@ -1,11 +1,11 @@
 SITE
   remote: https://supermarket.getchef.com/api/v1
   specs:
-    apache2 (3.2.2)
-    apt (6.0.1)
+    apache2 (3.3.0)
+    apt (6.1.0)
     build-essential (3.2.0)
       seven_zip (>= 0.0.0)
-    dmg (3.1.0)
+    dmg (3.1.1)
     homebrew (3.0.0)
     mingw (0.1.1)
       seven_zip (>= 0.0.0)
@@ -27,15 +27,15 @@ GIT
 GIT
   remote: https://github.com/dhoer/chef-chrome
   ref: master
-  sha: 00e7f0ec4ee91358fdfa95177f772da69ff2aca7
+  sha: a5c5e7fe3daed80319bb950cb66215e22a53fae3
   specs:
-    chrome (3.0.0)
+    chrome (4.0.0)
       dmg (>= 3.0)
 
 GIT
   remote: https://github.com/sprout-wrap-linux/sprout-apt-install
   ref: master
-  sha: 7908b0a42b38558bea28e552348eeac7a64c15d5
+  sha: ecafc0825e3c0c330a129707452be3428bad8896
   specs:
     sprout-apt-install (0.2.0)
       sprout-base (>= 0.0.0)
@@ -59,7 +59,7 @@ GIT
 GIT
   remote: https://github.com/sprout-wrap-linux/sprout-direnv
   ref: master
-  sha: 50898808f78e24b56c0328ed0266cc8e247af80a
+  sha: 6703b35f8e820865fd4fe248ec71084a93dfe8e2
   specs:
     sprout-direnv (0.1.0)
       sprout-base (>= 0.0.0)
@@ -71,6 +71,14 @@ GIT
   specs:
     sprout-git (0.3.1)
       homebrew (>= 0.0.0)
+      sprout-base (>= 0.0.0)
+
+GIT
+  remote: https://github.com/sprout-wrap-linux/sprout-tmate
+  ref: master
+  sha: f5c7b21c4c9b52b2635d99cea7a55bda0ece2042
+  specs:
+    sprout-tmate (0.1.0)
       sprout-base (>= 0.0.0)
 
 GIT
@@ -104,6 +112,7 @@ DEPENDENCIES
   sprout-bosh-cli (>= 0)
   sprout-direnv (>= 0)
   sprout-git (>= 0)
+  sprout-tmate (>= 0)
   sprout-vim (>= 0)
   tmux (>= 0)
   virtualbox (>= 0)

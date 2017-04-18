@@ -43,6 +43,9 @@ cookbook 'virtualbox',
 
 cookbook 'tmux'
 
+cookbook 'sprout-tmate',
+  :github => 'sprout-wrap-linux/sprout-tmate'
+
 #cookbook 'sprout-osx-apps',
 #  :github => 'pivotal-sprout/sprout-osx-apps'
 
