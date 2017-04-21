@@ -13,7 +13,7 @@ recipes:
 #- sprout-base::workspace_directory
 - sprout-git
 - sprout-git::default_editor
-#- sprout-git::projects
+- sprout-git::projects
 - sprout-git::git_scripts
 - sprout-git::git_duet
 
@@ -54,6 +54,10 @@ node_attributes:
     from_source: false
     install_dir: /usr/local
   sprout:
+    tmate:
+      version: '2.2.1'
+      checksum: 'ffb2e75e9f58cb082f6cabb6e0a4794b0e22b037dc82abc3bc7ee8f376f44e23'
+      uri: 'https://github.com/tmate-io/tmate/releases/download'
     cache_owner:
       user: pivotal
       group: pivotal
@@ -87,6 +91,7 @@ node_attributes:
       projects:
         - name: loggregator
           url: https://github.com/cloudfoundry/loggregator.git
+          recursive: true
     terminal:
       default_profile: 'Pro'
     settings:
